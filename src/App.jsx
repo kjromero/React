@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-            <h2>KeeperZav</h2>
+            <h2>Demo</h2>
         </div>
         <p className="App-intro">
         {this.renderLoginButton()};
