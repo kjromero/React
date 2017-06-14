@@ -1,3 +1,11 @@
+html{
+  padding: 50px;
+}
+
+span{
+  margin-left: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -17,8 +25,26 @@
 .App-intro {
   font-size: large;
 }
+.center{
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+}
+.panel-heading{
+  background: #fff;
+}
+.imgpsot{
+  width: 100%;
+}
+.panel-body{
+  padding: 0 !important;
+}
+.panel-heading{
+  background: #fff !important; 
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+  
