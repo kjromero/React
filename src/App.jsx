@@ -120,7 +120,20 @@ class App extends Component {
         </div>
       )
     }else{
-      return(<button onClick={this.handleAuth}>Login Google </button>)
+      return(<div className="center" id="MyImage">
+
+
+                  <img id="theImage" src="https://store-images.s-microsoft.com/image/apps.58521.13510798887167234.713cc0e4-e4a7-4f7c-8cde-9c6a53872b1d.539a5fdf-76a3-486f-bb0f-d2dce82923cc" />
+<br/>
+
+                  <p> Bienvenido a nuestra red social de imagenes comaprtidas
+
+                  Aqui podras subir tus imagenes y ver la de los demas </p>
+
+                  <button id="myButton" onClick={this.handleAuth}>Ingresar </button>
+                <br/>
+            </div>
+          )
     }
   }
 
